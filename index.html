@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--CDN BOOTSTRAP-->
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <!--Iconos de bootstrap-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <!--Icono desde local-->
+  <link rel="shortcut icon" href="assets/icon.svg" type="image/x-icon">
+
+  <!--Font family -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+    rel="stylesheet">
+
+  <!--Archivo CSS-->
+  <link rel="stylesheet" href="style.css">
+  <title>Elisa </title>
+</head>
+
+<body>
+  <!--Este es el codigo para el header-->
+  <header class="p-3 mb-3 border-bottom">
+    <i class="bi bi-chat-heart-fill"></i>
+    <div class="container">
+      <div class=" d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+        <a href="#" class="d-flex align-items-center mb-2 mb-lg-0 link-body-emphasis text-decoration-none">
+          <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap">
+            <use xlink:href="#bootstrap"></use>
+          </svg>
+        </a>
+
+        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+          <li><a href="#habilidades" class="nav-link px-2 ">Habilidades</a></li>
+          <li><a href="#proyectos" class="nav-link px-2 ">Proyectos</a></li>
+          <li><a href="#testimonios" class="nav-link px-2 ">Testimonios</a></li>
+          <li><a href="#contacto" class="nav-link px-2 ">Contacto</a></li>
+        </ul>
+
+      </div>
+    </div>
+  </header>
+  <!-- Este es el codigo para la parte superior de la pag donde ba sobre mi y la fotografia-->
+  <!--Hero-->
+  <main>
+    <div>
+      <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img src="assets/IMG_7205.jpg" class="d-block mx-lg-auto img-fluid rounded-circle" alt="Bootstrap Themes"
+              width="700" height="500" loading="lazy">
+          </div>
+          <div class="col-lg-6">
+            <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3"> El diseño no es lo que ves, sino lo que hace que
+              otros vean. </h1>
+            <h2 id="app"></h2>
+            <p class="lead">Como "Diseñadora UX/UI” me especializo en crear experiencias digitales que no solo se
+              destaquen, sino que también
+              conecten profundamente con los usuarios, en cada proyecto busco ofrecer un diseño visualmente atractivo,
+              funcional y
+              rentable, respaldado por un enfoque estratégico y creativo que genere resultados concretos, como mayor
+              satisfacción,
+              lealtad y crecimiento para cada negocio o empresa.</p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+              <button type="button" class="btn btn-lg px-4 me-md-2 boton-cv">Mi trayectoria</button>
+              <button type="button" class="btn btn-outline-secondary btn-lg px-4">Tomemos un cafe</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <!--Sec habilidades-->
+    <div class="habilidades-caja">
+      <div id="habilidades" class="hablidades">
+        <div class="container px-4 py-5" id="featured-3">
+          <h2 class="pb-2 border-bottom">Mis habilidades</h2>
+          <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+            <div class="feature col">
+              <div
+                class="bi-palette d-inline-flex align-items-center justify-content-center  bg-gradient fs-2 mb-3">
+                <svg class="bi" width="1em" height="1em">
+                  <use xlink:href="#collection"></use>
+                </svg>
+              </div>
+              <h3 class="fs-2 text-body-emphasis">Diseñadora UX</h3>
+              <p>He creado diseños responsivos para multilpeas proyectos desde CRM, plataformas, puntos de ventas,
+                sistemas
+                de referido y más.</p>
+              <!--Boton-->
+              <!--
+          <a href="#" class="icon-link">
+            Call to action
+            <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+          </a>
+        -->
+            </div>
+            <div class="feature col">
+              <div
+                class="bi-laptop d-inline-flex align-items-center justify-content-center  bg-gradient fs-4 mb-3">
+                <svg class="bi" width="1em" height="1em">
+                  <use xlink:href="#people-circle"></use>
+                </svg>
+              </div>
+
+              <h3 class="fs-2 text-body-emphasis">HTML y CSS</h3>
+              <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence
+                and
+                probably just keep going until we run out of words.</p>
+              <!--button-->
+              <!-- 
+          <a href="#" class="icon-link">
+            Call to action
+            <svg class="bi">
+              <use xlink:href="#chevron-right"></use>
+            </svg>
+          </a>
+          -->
+            </div>
+            <div class="feature col">
+              <div
+                class="bi-camera d-inline-flex align-items-center justify-content-center  bg-gradient fs-2 mb-3">
+                <svg class="bi" width="1em" height="1em">
+                  <use xlink:href="#toggles2"></use>
+                </svg>
+              </div>
+              <h3 class="fs-2 text-body-emphasis">Fotografia</h3>
+              <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence
+                and
+                probably just keep going until we run out of words.</p>
+              <!--Button-->
+              <!--
+          <a href="#" class="icon-link">
+            Call to action
+            <svg class="bi">
+              <use xlink:href="#chevron-right"></use>
+            </svg>
+          </a>
+        -->
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <!--Secc cards proyectos-->
+      <div id="proyectos" class="proyectos mt-5">
+        <div class="album py-5 bg-body-tertiary id=heading-icons proyectos ">
+          <div class="container">
+            <h2 class="pb-2 ">Proyectos</h2>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+              <div class="col">
+                <div class="card shadow-sm">
+                  <!--Se comenta esta parte pero se conserva la clase-->
+                  <!--
+                   <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                  xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
+                  preserveAspectRatio="xMidYMid slice" focusable="false">
+                  <title>Placeholder</title>
+                  <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
+                    dy=".3em">Thumbnail</text>
+                </svg>
+                -->
+                  <img class="bd-placeholder-img card-img-top" src="assets/pinterest.png" alt="">
+                  <div class="card-body">
+                    <p class="card-text">Clon de Pinterest</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm  btn-proyectos"><a target="_blank"
+                            href="pinterest-clon-sandy.vercel.app">Ver</a></button>
+                        <button type="button" class="btn btn-sm btn-proyectos"><a target="_blank"
+                            href="https://github.com/ElisaValdivia/pinterest-clon">Github</a></button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card shadow-sm">
+                  <!--
+                <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                  xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
+                  preserveAspectRatio="xMidYMid slice" focusable="false">
+                  <title>Placeholder</title>
+                  <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
+                    dy=".3em">Thumbnail</text>
+                </svg> 
+               -->
+                  <img class="bd-placeholder-img card-img-top" src="assets/pinterest.png" alt="">
+                  <div class="card-body">
+                    <p class="card-text">Gatos en adopción</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm  btn-proyectos"><a target="_blank"
+                            href="pinterest-clon-sandy.vercel.app">Ver</a></button>
+                        <button type="button" class="btn btn-sm  btn-proyectos"><a target="_blank"
+                            href="https://github.com/ElisaValdivia/pinterest-clon">Github</a></button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card shadow-sm">
+                  <!--
+                <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                  xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
+                  preserveAspectRatio="xMidYMid slice" focusable="false">
+                  <title>Placeholder</title>
+                  <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
+                    dy=".3em">Thumbnail</text>
+                </svg> 
+               -->
+                  <img class="bd-placeholder-img card-img-top" src="assets/pinterest.png" alt="">
+                  <div class="card-body">
+                    <p class="card-text">Tercer proyecto</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm  btn-proyectos"><a target="_blank"
+                            href="pinterest-clon-sandy.vercel.app">Ver</a></button>
+                        <button type="button" class="btn btn-sm  btn-proyectos"><a target="_blank"
+                            href="https://github.com/ElisaValdivia/pinterest-clon">Github</a></button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--Carrusel Testimonios-->
+      <div id="testimonios" class="testimonios container mt-5 ">
+        <h2 class="pb-2 border-bottom  ">Testimonios</h2>
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+
+
+            <div class="carousel-item active">
+              <!--Car inicio-->
+              <div class="d-flex justify-content-center">
+                <div class="card border-0" style="width: 18rem; ">
+                  <img src="assets/user_1.png" class="card-img-top rounded-circle" alt="imagen de testimonio">
+
+                  <div class="card-body text-center mb-1">
+                    <h5 class="card-title ">Carla Mora</h5>
+                    <h6 class="card-subtitle mb-2 text-body-secondary">Diseñadora de interiores</h6>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                      card's content.</p>
+                  </div>
+                </div>
+              </div>
+              <!--Fin card-->
+            </div>
+            <div class="carousel-item">
+              <!--Car inicio-->
+              <div class="d-flex justify-content-center">
+                <div class="card border-0" style="width: 18rem;">
+                  <img src="assets/user_4.png" class="card-img-top rounded-circle" alt=" imagen de testimonio">
+                  <div class="card-body text-center mb-1">
+                    <h5 class="card-title">Card 2</h5>
+                    <h6 class="card-subtitle mb-2 text-black">Diseñadora UX</h6>
+                    <p class="card-text text-black">Some quick example text to build on the card title and make up the bulk of the
+                      card's content.</p>
+                  </div>
+                </div>
+              </div>
+              <!--Fin Card-->
+            </div>
+            <div class="carousel-item">
+              <!--Car inicio-->
+              <div class="d-flex justify-content-center">
+                <div class="card border-0" style="width: 18rem;">
+                  <img src="assets/user_3.png" class="card-img-top rounded-circle" alt="imagen de testimonio">
+                  <div class="card-body text-center mb-1">
+                    <h5 class="card-title">Card 1</h5>
+                    <h6 class="card-subtitle mb-2 text-black">Arquitecto</h6>
+                  
+                    <p class="card-text text-body-secondary text-black">Some quick example text to build on the card title and make up the bulk of the
+                      card's content.</p>
+                  </div>
+                </div>
+              </div>
+              <!--Fin Car-->
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+      </div>
+      <!--Contacto-->
+      <div id="contacto" class="contacto">
+        <div class="px-4 py-5 my-5 text-center mb-4">
+          <i class="bi bi-chat-square-dots-fill d-block mx-auto mb-4 mx-auto fs-1 "></i>
+          <h1 class="display-5 fw-bold text-body-emphasis">Contactame</h1>
+          <div class="col-lg-6 mx-auto">
+            <p class="lead mb-4">Tomemos un cafe y hagamos negocio.</p>
+            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+              <a href="mailto:elisavaldiviavillagomez@gmail.com">
+                <button type="button" class="btn btn-lg px-4 gap-3">Enviar correo </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+  </main>
+
+  <!--Footer-->
+  <div id="footer" class="footer">
+    <div class="container">
+      <footer class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <!--La liga va en href dentro del #-->
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary"> <i class="bi bi-linkedin"></i></a>
+          </li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary"><i class="bi bi-github"></i></a>
+          </li>
+          <li class="nav-item"><a href="https://www.behance.net/valdiviaelisa"
+              class="nav-link px-2 text-body-secondary"><i class="bi bi-behance"></i></a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary"><i class="bi bi-medium"></i></a>
+          </li>
+        </ul>
+        <p class="text-center text-body-secondary"> Creado por Elisa Valdivia en el bootcam <a
+            href="https://tecnolochicas.mx/">TecnolochicasPro</a> </p>
+
+      </footer>
+    </div>
+  </div>
+
+  <!--Cdn Typerwriter-->
+  <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+  <!--Script obligatorio de bootstrap-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+
+  <!--main js-->
+  <script src="main.js"></script>
+
+</body>
+
+</html>
